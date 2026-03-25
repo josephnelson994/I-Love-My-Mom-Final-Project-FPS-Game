@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 81fa3ece63ad4f142a4ce5935a5d5196
+  productGUID: 8c343c1a39c65cd4ba4c324ff7510563
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -70,7 +70,6 @@ PlayerSettings:
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
   androidUseSwappy: 0
-  androidDisplayOptions: 1
   androidBlitType: 0
   androidResizeableActivity: 1
   androidDefaultWindowWidth: 1920
@@ -87,7 +86,6 @@ PlayerSettings:
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
-  audioSpatialExperience: 0
   deferSystemGesturesMode: 0
   hideHomeButton: 0
   submitAnalytics: 1
@@ -881,10 +879,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: f2ad61c8-c7fa-43ac-b3da-77c89a6830a1
+  cloudProjectId: d3c10d1e-9222-487c-a4b7-c9cfb09f9d5c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: I Love My Mom FPS Game
+  projectName: I Love My Mom FPS Game 2026-03-25_14-44-18
   organizationId: josephnelson994
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
@@ -895,4 +893,3 @@ PlayerSettings:
   androidVulkanDenyFilterList: []
   androidVulkanAllowFilterList: []
   androidVulkanDeviceFilterListAsset: {fileID: 0}
-  d3d12DeviceFilterListAsset: {fileID: 0}
