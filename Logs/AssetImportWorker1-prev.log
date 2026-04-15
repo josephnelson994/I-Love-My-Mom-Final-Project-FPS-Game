@@ -1,0 +1,358 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.0f1-517f89d850d1' branch; Version is '6000.2.0f1 (eed1c594c913) revision 15651269'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-10790523" at "2026-04-15T21:13:37.5254975Z"
+OS: 'Windows 11  (10.0.26200) 64bit Enterprise' Language: 'en' Physical Memory: 16098 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-15T21:13:37Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/10790523/Documents/IloveMyMomFPFinal
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51985
+-licensingIpc
+LicenseClient-10790523
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/10790523/Documents/IloveMyMomFPFinal
+C:/Users/10790523/Documents/IloveMyMomFPFinal
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8672]  Target information:
+
+Player connection [8672]  * "[IP] 10.111.27.41 [Port] 0 [Flags] 2 [Guid] 73622402 [EditorId] 73622402 [Version] 1048832 [Id] WindowsEditor(7,CS623-027) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8672] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8672] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20036, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-10790523"
+[Licensing::IpcConnector] LicenseClient-10790523 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-10790523-6000.2.0" at "2026-04-15T21:13:37.5887618Z"
+Library Redirect Path: Library/
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24776, path: "C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.1+ae67fbc
+  Session Id:              69dbc1ad2f0145329aff6bd8369b9913
+  Correlation Id:          962e29e2af070ce97a057bd20880f0eb
+  External correlation Id: 2813404796063476994
+  Machine Id:              5v6SqeN7NUk+jmevZ1Ti/hXdPa0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-10790523-6000.2.0" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-10790523-6000.2.0-notifications" at "2026-04-15T21:13:37.6031866Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 41.35 ms, found 18 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.0f1 (eed1c594c913)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/10790523/Documents/IloveMyMomFPFinal/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon RX 6400 (ID=0x743f)
+    Vendor:          ATI
+    VRAM:            4051 MB
+    App VRAM Budget: 3444 MB
+    Driver:          32.0.21028.4009
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002275 seconds.
+- Loaded All Assemblies, in  0.314 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 594ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375867506101-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 17.23 ms, found 18 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 22.42 ms, found 18 plugins.
+WwiseUnity: (ERROR) Cannot find ProjectInfo.json at C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\GeneratedSoundBanks\. Ensure that the Root Output Path in the Integration Settings matches the Root Output Path in the Wwise Project Settings on the SoundBanks tab, then regenerate the SoundBanks.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+AK.Wwise.Unity.Logging.WwiseLogger:Log (AK.Wwise.Unity.Logging.LogLevel,string) (at Assets/Wwise/Logging/Runtime/WwiseLogger.cs:166)
+AK.Wwise.Unity.Logging.WwiseLogger:Error (string) (at Assets/Wwise/Logging/Runtime/WwiseLogger.cs:62)
+Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<InitProjectDB>d__17:MoveNext () (at Assets/Wwise/API/Editor/AkSoundBankDirectoryWatcher.cs:118)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<InitProjectDB>d__17> (Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<InitProjectDB>d__17&)
+Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher:InitProjectDB (string,string,System.DateTime)
+Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<>c__DisplayClass15_0:<Execute>b__0 () (at Assets/Wwise/API/Editor/AkSoundBankDirectoryWatcher.cs:90)
+System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: Assets/Wwise/Logging/Runtime/WwiseLogger.cs Line: 62)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1456ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 20.53 ms, found 18 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (5.0 MB). Loaded Objects now: 7427.
+Memory consumption went from 136.8 MB to 131.8 MB.
+Total: 8.340400 ms (FindLiveObjects: 1.356800 ms CreateObjectMapping: 0.570500 ms MarkObjects: 4.405400 ms  DeleteObjects: 2.006600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 64262.489087 seconds.
+  path: Assets/ModularFirstPersonController/FirstPersonController/CircleReticle.png
+  artifactKey: Guid(be4ce60e2c9768c44b9b10b9c5258045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/FirstPersonController/CircleReticle.png using Guid(be4ce60e2c9768c44b9b10b9c5258045) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b31ee16ed21443da576efb1e3594f6cd') in 0.1002337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.304581 seconds.
+  path: Assets/Prefabs/Closed_Door_In_Frame Variant.prefab
+  artifactKey: Guid(86d7b3c67810129439bd2f8103dac839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Closed_Door_In_Frame Variant.prefab using Guid(86d7b3c67810129439bd2f8103dac839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '428dc34fdc39a4ec1e28bdf22135b448') in 0.4814866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Exploration Room 2.prefab
+  artifactKey: Guid(7789c87db177b41408845df1dd05ab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Exploration Room 2.prefab using Guid(7789c87db177b41408845df1dd05ab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '897e7853c80d1c37a2c72ab71299089a') in 0.0748491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1272
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.770 seconds
+Refreshing native plugins compatible for Editor in 21.10 ms, found 18 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+WwiseUnity: (ERROR) Cannot find ProjectInfo.json at C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\GeneratedSoundBanks\. Ensure that the Root Output Path in the Integration Settings matches the Root Output Path in the Wwise Project Settings on the SoundBanks tab, then regenerate the SoundBanks.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+AK.Wwise.Unity.Logging.WwiseLogger:Log (AK.Wwise.Unity.Logging.LogLevel,string) (at Assets/Wwise/Logging/Runtime/WwiseLogger.cs:166)
+AK.Wwise.Unity.Logging.WwiseLogger:Error (string) (at Assets/Wwise/Logging/Runtime/WwiseLogger.cs:62)
+Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<InitProjectDB>d__17:MoveNext () (at Assets/Wwise/API/Editor/AkSoundBankDirectoryWatcher.cs:118)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<InitProjectDB>d__17> (Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<InitProjectDB>d__17&)
+Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher:InitProjectDB (string,string,System.DateTime)
+Wwise.API.Editor.SoundBankDirectoryWatcher.Common.AkSoundBankDirectoryWatcher/<>c__DisplayClass15_0:<Execute>b__0 () (at Assets/Wwise/API/Editor/AkSoundBankDirectoryWatcher.cs:90)
+System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: Assets/Wwise/Logging/Runtime/WwiseLogger.cs Line: 62)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 21.65 ms, found 18 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6781 unused Assets / (4.8 MB). Loaded Objects now: 7481.
+Memory consumption went from 156.3 MB to 151.5 MB.
+Total: 11.261800 ms (FindLiveObjects: 0.809300 ms CreateObjectMapping: 0.800000 ms MarkObjects: 7.063000 ms  DeleteObjects: 2.587800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.172980 seconds.
+  path: Assets/Prefabs/Starting Room.prefab
+  artifactKey: Guid(72a358cf2b730094dbab34f692f06399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Starting Room.prefab using Guid(72a358cf2b730094dbab34f692f06399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '666eb8e9c10e61bbfdfd1736426ef905') in 0.6006253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
