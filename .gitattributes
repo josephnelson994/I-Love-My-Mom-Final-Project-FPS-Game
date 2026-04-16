@@ -1,5 +1,8 @@
 .zip filter=lfs diff=lfs merge=lfs -text
-.png filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.inputsystem@978211393e28/* filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.so filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.dylib filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-10.dylib filter=lfs diff=lfs merge=lfs -text
