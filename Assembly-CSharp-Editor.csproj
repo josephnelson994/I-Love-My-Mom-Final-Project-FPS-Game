@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7C2EEEE3-8278-A72B-9631-60140F529359}</ProjectGuid>
+    <ProjectGuid>{39F2F886-5E81-B104-C6E3-AD5F68DB0E03}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1334,63 +1334,63 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{2C898BCC-ABF3-0F9A-21A4-2639026A4496}</Project>
+      <Project>{92B79719-102D-166C-91B4-7D22704155D4}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.Editor.csproj">
-      <Project>{B6E059FD-AF11-9C77-F1A0-BC08374DE84A}</Project>
+      <Project>{FE013207-4CEA-5CA1-CF3F-574689EB6265}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Utilities.csproj">
-      <Project>{681E1286-48F9-3F53-82C1-C329079BF58E}</Project>
+      <Project>{5A33C741-5E8A-6354-0EF8-407A33134CA9}</Project>
       <Name>AK.Wwise.Unity.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.csproj">
-      <Project>{156461F5-D878-BD1C-BF5A-90745ED87B47}</Project>
+      <Project>{78B0F3D6-8770-D1E0-13FE-30DB6E0312E6}</Project>
       <Name>AK.Wwise.Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.ProjectDatabase.csproj">
-      <Project>{B5C75889-1082-7D05-3B1B-E51DF5A38EF9}</Project>
+      <Project>{19C88A40-06BC-486F-04CC-E1ACD4EE86CC}</Project>
       <Name>AK.Wwise.Unity.ProjectDatabase</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.OpenXR.csproj">
-      <Project>{754177D0-99F8-47AA-AC62-7466AD8C6823}</Project>
+      <Project>{6D5EBC94-D8C2-ECAA-F1CB-642B4DEB1154}</Project>
       <Name>AK.Wwise.Unity.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj">
-      <Project>{4193051E-B412-5D36-D592-9E299D1603D1}</Project>
+      <Project>{D8764B34-3D79-CBFA-5714-CB8904A2CD7E}</Project>
       <Name>AK.Wwise.Unity.API.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Logging.csproj">
-      <Project>{9FC18A0E-60BC-76AD-2A14-5C5D18A289EB}</Project>
+      <Project>{CDA5F2BB-C134-11B1-B6FB-7F01389FC802}</Project>
       <Name>AK.Wwise.Unity.Logging</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.csproj">
-      <Project>{39FFBEB8-5E03-0873-96FD-3A9404104BAF}</Project>
+      <Project>{71361BFB-27BF-C8E8-0BE7-6506B1E039EE}</Project>
       <Name>AK.Wwise.Unity.API</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableUpdater.csproj">
-      <Project>{58039413-60B7-E50F-D84E-B855D2237235}</Project>
+      <Project>{73D67952-06A2-96F0-11BA-DE093D127F5F}</Project>
       <Name>AK.Wwise.Unity.AddressableUpdater</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj">
-      <Project>{01C66FA0-A8EA-0F63-0738-9FC3803E802A}</Project>
+      <Project>{4941FD7E-1E6A-39F0-C5DC-043BFC40F12B}</Project>
       <Name>AK.Wwise.Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
-      <Project>{6A5C9D00-326D-49BF-1608-138C0637D159}</Project>
+      <Project>{F1538BA4-AF1E-D272-2B3D-CF1EEAF0B411}</Project>
       <Name>Ak.Wwise.Api.WAAPI</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
-      <Project>{BA30FA8C-F21D-8A92-C46E-05256B5D37DC}</Project>
+      <Project>{32E328DA-C423-09B8-A9ED-7FEBF805A98F}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableInstaller.csproj">
-      <Project>{B76B521D-EA9F-14D9-EB60-A7E50D15C9BA}</Project>
+      <Project>{3F72BAC9-3071-AB9E-655F-A90CA7886E08}</Project>
       <Name>AK.Wwise.Unity.AddressableInstaller</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
-      <Project>{E4A6D1EE-80E6-2C16-DA98-B12797F9EDBA}</Project>
+      <Project>{60C685FF-492F-83D1-3F67-99CC60F8C355}</Project>
       <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9FC18A0E-60BC-76AD-2A14-5C5D18A289EB}</ProjectGuid>
+    <ProjectGuid>{CDA5F2BB-C134-11B1-B6FB-7F01389FC802}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AK.Wwise.Unity.Logging</AssemblyName>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{681E1286-48F9-3F53-82C1-C329079BF58E}</ProjectGuid>
+    <ProjectGuid>{5A33C741-5E8A-6354-0EF8-407A33134CA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AK.Wwise.Unity.Utilities</AssemblyName>
@@ -1122,7 +1122,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AK.Wwise.Unity.Logging.csproj">
-      <Project>{9FC18A0E-60BC-76AD-2A14-5C5D18A289EB}</Project>
+      <Project>{CDA5F2BB-C134-11B1-B6FB-7F01389FC802}</Project>
       <Name>AK.Wwise.Unity.Logging</Name>
     </ProjectReference>
   </ItemGroup>
