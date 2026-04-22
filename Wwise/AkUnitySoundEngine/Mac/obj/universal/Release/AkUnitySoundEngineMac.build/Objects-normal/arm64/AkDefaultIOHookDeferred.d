@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/wwiseunity/AkUnitySoundEngine/Mac/AkDefaultIOHookDeferred.cpp \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/wwiseunity/AkUnitySoundEngine/Mac/stdafx.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/wwiseunity/AkUnitySoundEngine/Mac/AkDefaultIOHookDeferred.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkStreamMgrModule.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/IAkStreamMgr.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkMemoryMgr.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkNumeralTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/AkPlatforms.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Platforms/Mac/AkTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Platforms/POSIX/AkTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkSoundEngineExport.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkTypedefs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkConstants.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkEnums.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/Ak3DObjects.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkSoundEngineTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkSpeakerConfig.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkBitFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkFileSystemFlags.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkPlatformFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/SoundEngine/Common/AkAtomicTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Mac/AkPlatformFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkAssert.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/POSIX/AkPlatformFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/wwiseunity/AkUnitySoundEngine/Mac/../Common/AkMultipleFileLocation.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkListBareLight.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkListBare.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkLock.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/POSIX/AkLock.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkAutoLock.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/wwiseunity/AkUnitySoundEngine/Mac/AkFileHelpers.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/wwiseunity/AkUnitySoundEngine/Mac/../Common/AkFileHelpersBase.h \
+  /Users/Shared/Jenkins/ws/wwise_v2025.1.6/Wwise/SDK/include/AK/Tools/Common/AkObject.h
