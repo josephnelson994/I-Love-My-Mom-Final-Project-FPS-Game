@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<RootPaths>
+		<ProjectRoot>../../.backup/2026-04-13-14-47-55</ProjectRoot>
+		<SourceFilesRoot>../../.backup/2026-04-13-14-47-55/.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../.backup/2026-04-13-14-47-55/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{04F9ADD0-C4C2-F63D-203B-E8AD2D15BEEC}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="796049864" Name="RPM"/>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="1524500807" Name="Playback_Rate"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="665703777" Name="FootstepsTerrain">
+					<Switches>
+						<Switch Id="2110514317" Name="Ramp"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="2473969246" Name="Metal"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick" Color="8">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete" Color="27">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep" Color="9">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic" Color="13">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric" Color="4">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood" Color="7">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet" Color="17">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile" Color="16">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains" Color="3">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles" Color="19">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall" Color="15">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" Color="10">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright" Color="20">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{74996820-8BE7-8CA1-88CD-8E71AB6A1DCF}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="55166041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>F4/{F4CF8B2D-299B-0D98-6195-B1905D2BE628}.wem</CachePath>
+				</File>
+				<File Id="79637300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>06/{06A9FF5B-1415-B14A-2133-1D7B8D76CD2E}.wem</CachePath>
+				</File>
+				<File Id="183420865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</ShortName>
+					<CachePath>E6/{E6C2054A-C829-AAD5-2695-02BDEFAED5E7}.wem</CachePath>
+				</File>
+				<File Id="217885387" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>E8/{E83592A8-F965-892A-FEFE-B81FD30B1694}.wem</CachePath>
+				</File>
+				<File Id="241335881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
+					<CachePath>CE/{CEE80A93-071A-64B2-9C61-4A36E0AAC9A2}.wem</CachePath>
+				</File>
+				<File Id="260611793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</ShortName>
+					<CachePath>C0/{C0CD89E5-6D25-6EC2-B60A-3ECAA508DCEC}.wem</CachePath>
+				</File>
+				<File Id="329844510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</ShortName>
+					<CachePath>BD/{BD55CC87-1F88-1784-4F12-033E6B7AE350}.wem</CachePath>
+				</File>
+				<File Id="363692178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>7B/{7B2ED803-273C-6993-4C6D-1E12711E5AA5}.wem</CachePath>
+				</File>
+				<File Id="464438095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</ShortName>
+					<CachePath>A4/{A490C123-2734-2CD7-4277-280EFE59B8B8}.wem</CachePath>
+				</File>
+				<File Id="531746015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>6A/{6A668C8A-8441-DFCD-E4AE-0100342A8635}.wem</CachePath>
+				</File>
+				<File Id="564174391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>53/{530D8BC5-F6FF-6DBB-D104-0C5E841298B1}.wem</CachePath>
+				</File>
+				<File Id="593664744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
+					<CachePath>F2/{F2C6D361-5E55-862C-354B-9CAF6932BD21}.wem</CachePath>
+				</File>
+				<File Id="751584604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>48/{48389C34-4B5C-0BAC-0BCC-96734FE4CA00}.wem</CachePath>
+				</File>
+				<File Id="770337719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
+					<CachePath>75/{7511C9B0-7DC8-3C36-013E-6A45E0BD3474}.wem</CachePath>
+				</File>
+				<File Id="794670904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>C5/{C502EE0E-18D9-FFE5-34FE-D0EDF0A73549}.wem</CachePath>
+				</File>
+				<File Id="818687517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</ShortName>
+					<CachePath>C5/{C5F63313-888D-4286-F39E-E5AD1BA773C4}.wem</CachePath>
+				</File>
+				<File Id="890012544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
+					<CachePath>75/{75729F35-6530-5436-CA0B-CF9CEA6B3041}.wem</CachePath>
+				</File>
+				<File Id="976516425" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</ShortName>
+					<CachePath>B9/{B910FB5B-F39C-BF65-DE14-5D6DC5C73C1E}.wem</CachePath>
+				</File>
+				<File Id="1021528957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>5A/{5AB6ADD2-316C-F7F4-6F1D-51C084AEF964}.wem</CachePath>
+				</File>
+				<File Id="1051670912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</ShortName>
+					<CachePath>E2/{E2665643-A57D-EDFD-AF84-030F97EF38EE}.wem</CachePath>
+				</File>
+				<File Id="1067861503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
+					<CachePath>A1/{A1D82B0F-B3F3-5F02-4D1D-5822B685D2C2}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="Footsteps">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="665703777" Id="2110514317"/>
+							<MediaRefs>
+								<MediaRef Id="183420865"/>
+								<MediaRef Id="260611793"/>
+								<MediaRef Id="329844510"/>
+								<MediaRef Id="464438095"/>
+								<MediaRef Id="818687517"/>
+								<MediaRef Id="976516425"/>
+								<MediaRef Id="1051670912"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="665703777" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="55166041"/>
+								<MediaRef Id="79637300"/>
+								<MediaRef Id="217885387"/>
+								<MediaRef Id="363692178"/>
+								<MediaRef Id="531746015"/>
+								<MediaRef Id="564174391"/>
+								<MediaRef Id="751584604"/>
+								<MediaRef Id="794670904"/>
+								<MediaRef Id="1021528957"/>
+								<MediaRef Id="1067861503"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="665703777" Id="2412606308" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="241335881"/>
+								<MediaRef Id="593664744"/>
+								<MediaRef Id="770337719"/>
+								<MediaRef Id="890012544"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="665703777" Name="FootstepsTerrain">
+					<Switches>
+						<Switch Id="2110514317" Name="Ramp"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="2473969246" Name="Metal"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{92675164-32E5-C015-9E9E-2167F01FC442}</FileHash>
+</SoundBanksInfo>
