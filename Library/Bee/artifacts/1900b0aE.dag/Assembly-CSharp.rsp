@@ -453,7 +453,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
+"Assets/FirstPersonController/FirstPersonController.cs"
 "Assets/Script/DoorOpener.cs"
 "Assets/Script/Footstepsbby.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
