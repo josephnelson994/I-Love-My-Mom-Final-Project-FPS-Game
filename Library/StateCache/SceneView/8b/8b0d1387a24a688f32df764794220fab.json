@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-18.494510650634767,"y":3.458127975463867,"z":19.71779441833496},"rotation":{"x":0.16321823000907899,"y":-0.43773236870765688,"z":0.08117656409740448,"w":0.8804654479026794},"size":3.5176491737365724,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-38.75728225708008,"y":1.3124629259109498,"z":3.022449493408203},"rotation":{"x":0.1678452491760254,"y":0.17265911400318147,"z":-0.02984745241701603,"w":0.9701489806175232},"size":1.398274302482605,"orthographic":false}
+>>>>>>> Feature/Door
