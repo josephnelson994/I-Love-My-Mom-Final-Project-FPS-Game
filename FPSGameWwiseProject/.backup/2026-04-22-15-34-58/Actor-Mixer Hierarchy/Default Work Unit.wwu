@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Footsteps" ID="{13C1C026-97CA-4DEC-8258-04737CF6AAD3}" ShortID="234891654">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Carpet" ID="{0F2823E6-E2C1-4B3A-B290-40226786501D}" WorkUnitID="{DFDC6CBC-11CE-47E1-A54B-434006102344}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="FootstepsTerrain" ID="{40C96A90-E8A7-4C1E-9E5F-A8D9ADAF2FA4}" WorkUnitID="{DFDC6CBC-11CE-47E1-A54B-434006102344}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="MEtal" ID="{B744D1A4-7EC2-429D-BA41-920744F7570D}" ShortID="332711591">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7196DA01-25FD-47CD-BE47-E88D881C8249}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{6E3DF7F2-6441-46A0-ABC5-4CEFFADC0850}" ShortID="1052711941">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{05FC9320-64F1-4A8C-9F48-2EB4D6D5B2AE}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.350504217367254"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217885387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{05FC9320-64F1-4A8C-9F48-2EB4D6D5B2AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_01" ID="{DDE02E3F-5F1B-491D-ABAB-234FDC6F6ED0}" ShortID="173827456">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{3336CDF4-45FF-4A77-A8B5-94B8434C0DA6}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.918562776548672"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.46244863108407"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="79637300"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{3336CDF4-45FF-4A77-A8B5-94B8434C0DA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_02" ID="{BFCF5564-C200-450D-8A80-7342C3849FC5}" ShortID="931966390">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{C918F57B-2CB5-4B81-9C2D-BE3783F21F69}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.95798907632743"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.50187493086284"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="794670904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{C918F57B-2CB5-4B81-9C2D-BE3783F21F69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_03" ID="{4EDF583C-8542-4512-AA13-3C869164D264}" ShortID="282971576">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{D33F8EEA-1FD3-4B41-9AD1-932C58A74A2F}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.02158808075221"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.56547393528761"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="751584604"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{D33F8EEA-1FD3-4B41-9AD1-932C58A74A2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_04" ID="{F56A858E-2A5E-48D5-89C4-53576722BD99}" ShortID="930973240">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{0C67BE4F-D3B1-42E8-847A-212D7FFC4B14}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.08518708517699"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.62907293971239"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="55166041"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{0C67BE4F-D3B1-42E8-847A-212D7FFC4B14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_05" ID="{7125DEC2-0613-49E4-ACDF-887FB4790BAD}" ShortID="654573121">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{D48D4ADB-686C-4061-92CA-A2FB7DB3291D}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.1850451465708"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.65641288716814"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="363692178"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{D48D4ADB-686C-4061-92CA-A2FB7DB3291D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_06" ID="{1ABDA743-0A65-4B82-9D89-8116D94D1F22}" ShortID="48514338">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{36503C1E-3F52-4835-BD7B-C979525D9FDE}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="6.17612603705752"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.81670271017699"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="564174391"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{36503C1E-3F52-4835-BD7B-C979525D9FDE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_07" ID="{4338636F-FCBC-46BB-9080-AC162FF337CF}" ShortID="553597055">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{B9D8101E-847D-4A3C-AAF8-782FD3D8D3E7}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.40893397400442"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.94073347621682"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021528957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{B9D8101E-847D-4A3C-AAF8-782FD3D8D3E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_08" ID="{569D088A-2B9F-4D8B-8985-E01BA3855587}" ShortID="522691325">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{163F75CD-8F57-43DA-9C35-67DA5BA9A7C6}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="8.54505109236726"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.49670568307522"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.10102329922566"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1067861503"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{163F75CD-8F57-43DA-9C35-67DA5BA9A7C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_09" ID="{25157027-4A9E-4D51-B136-FFC57C67BB5E}" ShortID="1041025782">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{47AB4107-C4F9-4962-8DBB-282B6BFC20CE}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.45152751659292"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.4788674640487"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="531746015"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close" ID="{47AB4107-C4F9-4962-8DBB-282B6BFC20CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ramp" ID="{792D5DAD-B149-422A-9937-6F52E5F1DAE7}" ShortID="211950722">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{2906B653-C180-43E1-8DB3-6906A97F7CF5}" ShortID="50365907">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{2ACB8002-9A63-4129-B76A-527D1A7FE922}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.424663175004516"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="183420865"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{2ACB8002-9A63-4129-B76A-527D1A7FE922}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_01" ID="{709F2087-23BC-4EC8-BDCB-074A203D22EF}" ShortID="328088376">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{A5D9A18A-8C64-4DE8-9F0F-4899B99EA05B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.585520438263801"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.06165793751129"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329844510"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{A5D9A18A-8C64-4DE8-9F0F-4899B99EA05B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_02" ID="{1482C640-93C0-4246-BE5A-7BA8224B48F3}" ShortID="833120080">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{2BEE9837-48C0-4B62-B251-D85B1B3D5A49}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.32546384925652"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.82090422009512"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="976516425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{2BEE9837-48C0-4B62-B251-D85B1B3D5A49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_03" ID="{9170A9E7-B115-4336-92BA-D5D93B4AD4B9}" ShortID="79134807">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{8DE4A2C3-5185-4331-B7CF-ADEE6D4D08B0}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.05253867918849"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.50937330684486"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1051670912"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{8DE4A2C3-5185-4331-B7CF-ADEE6D4D08B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_04" ID="{2E0B9684-332D-4433-A287-4497DA2B84FC}" ShortID="302439835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{042679BE-9641-4E07-A9C0-085623DBBB13}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.71527060381675"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.26861958942869"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464438095"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{042679BE-9641-4E07-A9C0-085623DBBB13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_05" ID="{18AF2622-0206-4387-876E-67F0C7902541}" ShortID="884690108">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{D2247BFC-E9A9-4BD4-A40F-E66F6D852758}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.45521401480946"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.97639154776955"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="260611793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{D2247BFC-E9A9-4BD4-A40F-E66F6D852758}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_06" ID="{210E2015-687B-40AB-BE35-39BA7DCCA8FD}" ShortID="896519463">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{4A10BEDC-DBC0-401D-AA38-271DE4468D25}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.22732887845404"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.68416350611041"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818687517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping" ID="{4A10BEDC-DBC0-401D-AA38-271DE4468D25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Carpet" ID="{16BA24C0-3529-41F2-92E0-9E58DA3D765D}" ShortID="475338939">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{1B6B0740-59F0-4649-989B-327951B7EB05}" ShortID="407046564">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{14DC2898-D318-46FB-9AF0-C02F70BB83A1}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.622122689783878"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="770337719"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{14DC2898-D318-46FB-9AF0-C02F70BB83A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_01" ID="{5424FB46-20FE-441C-9634-B5009FEC619F}" ShortID="749979036">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{B72D4965-1E80-4A28-B435-9ED9F5602738}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.838782332992194"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.29376758372966"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="593664744"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{B72D4965-1E80-4A28-B435-9ED9F5602738}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_02" ID="{45043DCC-5BCB-4918-9CFB-38672F161B70}" ShortID="428905451">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{03315833-5AE4-4A04-B466-2D2908985365}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.51042722693797"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.08612285032007"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="890012544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{03315833-5AE4-4A04-B466-2D2908985365}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_03" ID="{9204C8AB-FB61-4682-BBD8-A8756C49D066}" ShortID="425625100">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{78BC6BD1-C86D-466B-8F84-ED3B4977FE7E}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.13564505448197"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.70205526458371"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="241335881"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop" ID="{78BC6BD1-C86D-466B-8F84-ED3B4977FE7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="MEtal" ID="{B744D1A4-7EC2-429D-BA41-920744F7570D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Ramp" ID="{792D5DAD-B149-422A-9937-6F52E5F1DAE7}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Carpet" ID="{16BA24C0-3529-41F2-92E0-9E58DA3D765D}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Ramp" ID="{5985AB1E-225F-4915-A348-BDA173EDA198}"/>
+								<ItemList>
+									<ItemRef Name="Ramp" ID="{792D5DAD-B149-422A-9937-6F52E5F1DAE7}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Metal" ID="{0F0C476E-DFD4-4BD0-AE18-BA0A219338DB}"/>
+								<ItemList>
+									<ItemRef Name="MEtal" ID="{B744D1A4-7EC2-429D-BA41-920744F7570D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Carpet" ID="{0F2823E6-E2C1-4B3A-B290-40226786501D}"/>
+								<ItemList>
+									<ItemRef Name="Carpet" ID="{16BA24C0-3529-41F2-92E0-9E58DA3D765D}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

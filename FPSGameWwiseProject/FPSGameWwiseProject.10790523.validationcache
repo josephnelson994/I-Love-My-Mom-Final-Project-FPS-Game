@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValidationCache Version="1" SchemaVersion="119">
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1768429518" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Triggers\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Switches\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\States\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Queries\Factory Queries.wwu" DateLow="1768429518" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Queries\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1768429518" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Presets\Factory Reflect.wwu" DateLow="1768429524" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Presets\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Modulators\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Metadata\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1768429525" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Game Parameters\Factory Motion.wwu" DateLow="1768429525" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\FPSGameWwiseProject.wproj" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Events\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Effects\Factory Reflect.wwu" DateLow="1768429524" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Effects\Factory Mastering Suite.wwu" DateLow="1768429525" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Effects\Factory Effects.wwu" DateLow="1768429518" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Effects\Factory AK Convolution Reverb Effects Stereo.wwu" DateLow="1768429523" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Effects\Factory AK Convolution Reverb Effects Ambisonics.wwu" DateLow="1768429524" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Effects\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1768429518" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1768429518" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Actor-Mixer Hierarchy\Factory Soundseed Air Objects.wwu" DateLow="1768429525" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1768429525" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1776112400" DateHigh="0"/>
+<ValidationCache Version="1" SchemaVersion="133">
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Attenuations\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Busses\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Containers\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Containers\Factory Motion.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Containers\Factory Soundseed Air Objects.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Containers\Factory Synth One.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Containers\Music (Migrated)\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Control Surface Sessions\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Conversion Settings\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Devices\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Effects\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Effects\Factory AK Convolution Reverb Effects Ambisonics.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Effects\Factory AK Convolution Reverb Effects Stereo.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Effects\Factory Effects.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Effects\Factory Mastering Suite.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Effects\Factory Reflect.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Events\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\FPSGameWwiseProject.10790523.wsettings" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\FPSGameWwiseProject.wproj" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Game Parameters\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Game Parameters\Factory Motion.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Metadata\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Mixing Sessions\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Modulators\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Presets\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Presets\Factory Reflect.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Presets\Factory Spatial Audio.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Queries\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Queries\Factory Queries.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\SoundBanks\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\States\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Switches\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Triggers\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Virtual Acoustics\Default Work Unit.wwu" DateLow="1776893698" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\10790523\Documents\I-Love-My-Mom-Final-Project-FPS-Game\FPSGameWwiseProject\.backup\2026-04-13-14-47-55\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1776893698" DateHigh="0"/>
 </ValidationCache>

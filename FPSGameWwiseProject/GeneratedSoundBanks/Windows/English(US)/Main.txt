@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Player\Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	665703777	FootstepsTerrain			\Default Work Unit\FootstepsTerrain	
+
+Switch	ID	Name	Switch Group			Notes
+	2110514317	Ramp	FootstepsTerrain			
+	2412606308	Carpet	FootstepsTerrain			
+	2473969246	Metal	FootstepsTerrain			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	55166041	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_04	.cache\F4\{F4CF8B2D-299B-0D98-6195-B1905D2BE628}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_04		52308
+	79637300	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_01	.cache\06\{06A9FF5B-1415-B14A-2133-1D7B8D76CD2E}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_01		52310
+	183420865	125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping	.cache\E6\{E6C2054A-C829-AAD5-2695-02BDEFAED5E7}.wem		\Containers\Default Work Unit\Footsteps\Ramp\125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping		75008
+	217885387	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close	.cache\E8\{E83592A8-F965-892A-FEFE-B81FD30B1694}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close		33744
+	241335881	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_03	.cache\CE\{CEE80A93-071A-64B2-9C61-4A36E0AAC9A2}.wem		\Containers\Default Work Unit\Footsteps\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_03		100012
+	260611793	125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_05	.cache\C0\{C0CD89E5-6D25-6EC2-B60A-3ECAA508DCEC}.wem		\Containers\Default Work Unit\Footsteps\Ramp\125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_05		92032
+	329844510	125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_01	.cache\BD\{BD55CC87-1F88-1784-4F12-033E6B7AE350}.wem		\Containers\Default Work Unit\Footsteps\Ramp\125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_01		84088
+	363692178	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_05	.cache\7B\{7B2ED803-273C-6993-4C6D-1E12711E5AA5}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_05		45348
+	464438095	125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_04	.cache\A4\{A490C123-2734-2CD7-4277-280EFE59B8B8}.wem		\Containers\Default Work Unit\Footsteps\Ramp\125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_04		97708
+	531746015	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_09	.cache\6A\{6A668C8A-8441-DFCD-E4AE-0100342A8635}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_09		98722
+	564174391	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_06	.cache\53\{530D8BC5-F6FF-6DBB-D104-0C5E841298B1}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_06		61592
+	593664744	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_01	.cache\F2\{F2C6D361-5E55-862C-354B-9CAF6932BD21}.wem		\Containers\Default Work Unit\Footsteps\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_01		80356
+	751584604	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_03	.cache\48\{48389C34-4B5C-0BAC-0BCC-96734FE4CA00}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_03		52310
+	770337719	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop	.cache\75\{7511C9B0-7DC8-3C36-013E-6A45E0BD3474}.wem		\Containers\Default Work Unit\Footsteps\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop		109840
+	794670904	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_02	.cache\C5\{C502EE0E-18D9-FFE5-34FE-D0EDF0A73549}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_02		52310
+	818687517	125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_06	.cache\C5\{C5F63313-888D-4286-F39E-E5AD1BA773C4}.wem		\Containers\Default Work Unit\Footsteps\Ramp\125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_06		80684
+	890012544	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_02	.cache\75\{75729F35-6530-5436-CA0B-CF9CEA6B3041}.wem		\Containers\Default Work Unit\Footsteps\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_02		101648
+	976516425	125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_02	.cache\B9\{B910FB5B-F39C-BF65-DE14-5D6DC5C73C1E}.wem		\Containers\Default Work Unit\Footsteps\Ramp\125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_02		87492
+	1021528957	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_07	.cache\5A\{5AB6ADD2-316C-F7F4-6F1D-51C084AEF964}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_07		51148
+	1051670912	125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_03	.cache\E2\{E2665643-A57D-EDFD-AF84-030F97EF38EE}.wem		\Containers\Default Work Unit\Footsteps\Ramp\125544-Footsteps_on_carpet_or_rug_in_boots_walking_and_stopping_03		80680
+	1067861503	210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_08	.cache\A1\{A1D82B0F-B3F3-5F02-4D1D-5822B685D2C2}.wem		\Containers\Default Work Unit\Footsteps\MEtal\210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close_08		58158
+
