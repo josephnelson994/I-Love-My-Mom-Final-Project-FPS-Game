@@ -398,6 +398,158 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Environment" ID="{F4BAC806-9966-48BF-820A-A6838D2A838D}" ShortID="1044808838">
+					<ChildrenList>
+						<RandomSequenceContainer Name="DoorOpen" ID="{E5C7BB86-97FE-43C8-92D6-0378CA55A8A7}" ShortID="377848563">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{67FEF32E-5045-4A79-96D7-F6940021FE32}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DoorOpen1" ID="{C446F8E9-F6A8-4002-A563-AC18868F9A81}" ShortID="229116962">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="491210-CCC_-Antique_Door_Unlock_10" ID="{E16304DE-8FDA-415F-A698-1793E009398D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00915422902178398"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.288358214186199"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.494328367176341"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.09850744923549"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door\491210-CCC_-Antique_Door_Unlock_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="961463317"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="491210-CCC_-Antique_Door_Unlock_10" ID="{E16304DE-8FDA-415F-A698-1793E009398D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DoorOpen2" ID="{C5E062C2-E02A-4089-9269-27D09DBF32F4}" ShortID="717683231">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="491207-CCC_-Antique_Door_Unlock_07" ID="{62FFBBB6-E2C8-401C-B072-8C38560111C9}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0575124372297258"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.233883911400885"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.64413929697293"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.34962522481093"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>491207-CCC_-Antique_Door_Unlock_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="956179560"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="491207-CCC_-Antique_Door_Unlock_07" ID="{62FFBBB6-E2C8-401C-B072-8C38560111C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DoorOpen3" ID="{4A8FCD15-5641-4EA9-B83E-3B600036C21A}" ShortID="560290578">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="491205-CCC_-Antique_Door_Unlock_05" ID="{FE3EFFF2-4F30-44BC-8582-941A4CF54D75}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.131641796275751"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.386865687014452"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.01552234258225"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>491205-CCC_-Antique_Door_Unlock_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="693336430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="491205-CCC_-Antique_Door_Unlock_05" ID="{FE3EFFF2-4F30-44BC-8582-941A4CF54D75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DoorOpen4" ID="{752B8FC4-6A51-4E38-9A35-9249CA1C52A1}" ShortID="910102352">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="313549-Door-Abandoned-House-Room_Perspective-Reverberating-Old_Wooden_Door-Creaky-Very_Quiet" ID="{8A79B6EC-47FC-4EF5-9EB6-75B9D2777B14}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.217365473657106"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.230950815760674"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.7117531050497"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.85292137381331"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>313549-Door-Abandoned-House-Room_Perspective-Reverberating-Old_Wooden_Door-Creaky-Very_Quiet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="849526905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="313549-Door-Abandoned-House-Room_Perspective-Reverberating-Old_Wooden_Door-Creaky-Very_Quiet" ID="{8A79B6EC-47FC-4EF5-9EB6-75B9D2777B14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

@@ -1,0 +1,783 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "RootPaths": {
+   "ProjectRoot": "../../../../FPSGameWwiseProject",
+   "SourceFilesRoot": "../../../../FPSGameWwiseProject/.cache",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "../../../../FPSGameWwiseProject/GeneratedSoundBanks/Mac"
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "Language": "SFX",
+    "Hash": "{66509304-7541-C638-8950-B48F56A50FFD}",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "796049864",
+      "Name": "RPM"
+     },
+     {
+      "Id": "822163944",
+      "Name": "SS_Air_RPM"
+     },
+     {
+      "Id": "1029930033",
+      "Name": "SS_Air_Fury"
+     },
+     {
+      "Id": "1351367891",
+      "Name": "SS_Air_Fear"
+     },
+     {
+      "Id": "1524500807",
+      "Name": "Playback_Rate"
+     },
+     {
+      "Id": "2648548617",
+      "Name": "SS_Air_Month"
+     },
+     {
+      "Id": "3002758120",
+      "Name": "SS_Air_Freefall"
+     },
+     {
+      "Id": "3074696722",
+      "Name": "SS_Air_Size"
+     },
+     {
+      "Id": "3203397129",
+      "Name": "SS_Air_TimeOfDay"
+     },
+     {
+      "Id": "3715662592",
+      "Name": "SS_Air_Storm"
+     },
+     {
+      "Id": "3847924954",
+      "Name": "SS_Air_Presence"
+     },
+     {
+      "Id": "4160247818",
+      "Name": "SS_Air_Turbulence"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "665703777",
+      "Name": "FootstepsTerrain",
+      "Switches": [
+       {
+        "Id": "2110514317",
+        "Name": "Ramp"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal"
+       }
+      ]
+     }
+    ],
+    "AcousticTextures": [
+     {
+      "Id": "504532776",
+      "Name": "Brick",
+      "Color": "8",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "12"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "18"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "23"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "513139656",
+      "Name": "Mountain",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "841620460",
+      "Name": "Concrete",
+      "Color": "27",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "14"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "1755085759",
+      "Name": "Wood_Deep",
+      "Color": "9",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "1"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "8"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "20"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "1873957695",
+      "Name": "Anechoic",
+      "Color": "13",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "1970351858",
+      "Name": "Fabric",
+      "Color": "4",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "3"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "13"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "48"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "72"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2058049674",
+      "Name": "Wood",
+      "Color": "7",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "32"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "25"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "20"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2412606308",
+      "Name": "Carpet",
+      "Color": "17",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "46"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "45"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "76"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2637588553",
+      "Name": "Tile",
+      "Color": "16",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "67"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "41"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "12"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2928161104",
+      "Name": "Curtains",
+      "Color": "3",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "7"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "60"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "84"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "3195498748",
+      "Name": "Cork_Tiles",
+      "Color": "19",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "14"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "30"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "73"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "3670307564",
+      "Name": "Drywall",
+      "Color": "15",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "4168643977",
+      "Name": "Acoustic_Banner",
+      "Color": "10",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "37"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "4262522749",
+      "Name": "Wood_Bright",
+      "Color": "20",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "32"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "25"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "10"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "9"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "Language": "SFX",
+    "Hash": "{F8D1B5ED-56A9-0335-FD32-402FCE356D50}",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "28927367",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "DB/{DB0F7F8B-F7E0-31A6-D6A1-001516F9422D}.wem"
+     },
+     {
+      "Id": "98552668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "36/{3672A50C-C18B-C610-587D-161548ED8773}.wem"
+     },
+     {
+      "Id": "241335881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav",
+      "CachePath": "CE/{CEE80A93-071A-64B2-9C61-4A36E0AAC9A2}.wem"
+     },
+     {
+      "Id": "259744297",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "57/{5752324B-D941-05F8-3B9E-0E00EE562EEE}.wem"
+     },
+     {
+      "Id": "415405995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "75/{756CBF91-4757-D4FB-1E75-88580D7FEE23}.wem"
+     },
+     {
+      "Id": "593664744",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav",
+      "CachePath": "F2/{F2C6D361-5E55-862C-354B-9CAF6932BD21}.wem"
+     },
+     {
+      "Id": "662044889",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "BF/{BF8C275A-9E6E-D85F-953A-0F19F212170F}.wem"
+     },
+     {
+      "Id": "693336430",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "491205-CCC_-Antique_Door_Unlock_05.wav",
+      "CachePath": "B9/{B9F6E8D5-435B-FFE3-0BC3-059301F8439C}.wem"
+     },
+     {
+      "Id": "731121556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "39/{39DFBA31-5672-7282-3CE3-0B10C8953A74}.wem"
+     },
+     {
+      "Id": "770337719",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav",
+      "CachePath": "75/{7511C9B0-7DC8-3C36-013E-6A45E0BD3474}.wem"
+     },
+     {
+      "Id": "822579370",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "43/{43DE0F32-B114-9D1F-B9CC-C756354A34AC}.wem"
+     },
+     {
+      "Id": "890012544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav",
+      "CachePath": "75/{75729F35-6530-5436-CA0B-CF9CEA6B3041}.wem"
+     },
+     {
+      "Id": "941014888",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "D7/{D71F9DE5-3701-5C63-E18C-A35B473EF573}.wem"
+     },
+     {
+      "Id": "956179560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "491207-CCC_-Antique_Door_Unlock_07.wav",
+      "CachePath": "C5/{C5754F0E-00E3-B4BD-7C73-039A9447B520}.wem"
+     },
+     {
+      "Id": "961463317",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door\\491210-CCC_-Antique_Door_Unlock_10.wav",
+      "CachePath": "90/{901ED4DF-BB29-EA00-DC41-5C546D64DB9B}.wem"
+     },
+     {
+      "Id": "978459537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav",
+      "CachePath": "2C/{2CF159CC-2593-720F-79AA-5DB23067B56D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "535830432",
+      "Name": "Door_Open",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6041791",
+      "DurationMax": "0.7136833",
+      "MediaRefs": [
+       {
+        "Id": "693336430"
+       },
+       {
+        "Id": "956179560"
+       },
+       {
+        "Id": "961463317"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45498526",
+      "DurationMax": "0.6221227",
+      "MediaRefs": [
+       {
+        "Id": "241335881"
+       },
+       {
+        "Id": "593664744"
+       },
+       {
+        "Id": "770337719"
+       },
+       {
+        "Id": "890012544"
+       }
+      ]
+     },
+     {
+      "Id": "3431057813",
+      "Name": "Trashcan",
+      "DurationType": "OneShot",
+      "DurationMin": "0.31504837",
+      "DurationMax": "0.5648502",
+      "MediaRefs": [
+       {
+        "Id": "28927367"
+       },
+       {
+        "Id": "98552668"
+       },
+       {
+        "Id": "259744297"
+       },
+       {
+        "Id": "415405995"
+       },
+       {
+        "Id": "662044889"
+       },
+       {
+        "Id": "731121556"
+       },
+       {
+        "Id": "822579370"
+       },
+       {
+        "Id": "941014888"
+       },
+       {
+        "Id": "978459537"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{668D3738-3200-5BF7-2FFB-6E0079937E78}"
+ }
+}

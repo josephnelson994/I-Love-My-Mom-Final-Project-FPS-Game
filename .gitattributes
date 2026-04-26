@@ -6,3 +6,4 @@ Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.so f
 Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.dylib filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-10.dylib filter=lfs diff=lfs merge=lfs -text
+.prof filter=lfs diff=lfs merge=lfs -text

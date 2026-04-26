@@ -30,7 +30,21 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy" ID="{D61C7B9C-B99D-48AD-84BA-03FEDB3A5FA2}" ShortID="802946961"/>
-				<Folder Name="Environment" ID="{C69FBFFE-F693-4F6C-AD67-9DBABB1569D8}" ShortID="123592999"/>
+				<Folder Name="Environment" ID="{C69FBFFE-F693-4F6C-AD67-9DBABB1569D8}" ShortID="123592999">
+					<ChildrenList>
+						<Event Name="Door_Open" ID="{62A2D20D-9A71-4F19-AEF3-8B048F35C698}">
+							<ChildrenList>
+								<Action Name="" ID="{AE04E46A-19C8-43AE-836C-3322AE665A3F}" ShortID="920342994">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DoorOpen" ID="{E5C7BB86-97FE-43C8-92D6-0378CA55A8A7}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

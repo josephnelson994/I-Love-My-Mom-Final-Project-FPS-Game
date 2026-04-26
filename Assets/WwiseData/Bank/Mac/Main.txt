@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	535830432	Door_Open			\Default Work Unit\Environment\Door_Open	
+	2385628198	Footsteps			\Default Work Unit\Player\Footsteps	
+	3431057813	Trashcan			\Default Work Unit\Player\Trashcan	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	28927367	metal_02	.cache\DB\{DB0F7F8B-F7E0-31A6-D6A1-001516F9422D}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_02		42004
+	98552668	metal_06	.cache\36\{3672A50C-C18B-C610-587D-161548ED8773}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_06		46796
+	241335881	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_03	.cache\CE\{CEE80A93-071A-64B2-9C61-4A36E0AAC9A2}.wem		\Containers\Default Work Unit\Player\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_03		100012
+	259744297	metal_03	.cache\57\{5752324B-D941-05F8-3B9E-0E00EE562EEE}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_03		47994
+	415405995	metal_08	.cache\75\{756CBF91-4757-D4FB-1E75-88580D7FEE23}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_08		52778
+	593664744	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_01	.cache\F2\{F2C6D361-5E55-862C-354B-9CAF6932BD21}.wem		\Containers\Default Work Unit\Player\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_01		80356
+	662044889	metal_04	.cache\BF\{BF8C275A-9E6E-D85F-953A-0F19F212170F}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_04		45592
+	693336430	DoorOpen3	.cache\B9\{B9F6E8D5-435B-FFE3-0BC3-059301F8439C}.wem		\Containers\Default Work Unit\Environment\DoorOpen\DoorOpen3		120796
+	731121556	metal_05	.cache\39\{39DFBA31-5672-7282-3CE3-0B10C8953A74}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_05		40812
+	770337719	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop	.cache\75\{7511C9B0-7DC8-3C36-013E-6A45E0BD3474}.wem		\Containers\Default Work Unit\Player\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop		109840
+	822579370	metal_07	.cache\43\{43DE0F32-B114-9D1F-B9CC-C756354A34AC}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_07		43190
+	890012544	125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_02	.cache\75\{75729F35-6530-5436-CA0B-CF9CEA6B3041}.wem		\Containers\Default Work Unit\Player\Carpet\125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop_02		101648
+	941014888	metal_01	.cache\D7\{D71F9DE5-3701-5C63-E18C-A35B473EF573}.wem		\Containers\Default Work Unit\Player\TrashCan\metal_01		31226
+	956179560	DoorOpen2	.cache\C5\{C5754F0E-00E3-B4BD-7C73-039A9447B520}.wem		\Containers\Default Work Unit\Environment\DoorOpen\DoorOpen2		135548
+	961463317	DoorOpen1	.cache\90\{901ED4DF-BB29-EA00-DC41-5C546D64DB9B}.wem		\Containers\Default Work Unit\Environment\DoorOpen\DoorOpen1		116096
+	978459537	metal	.cache\2C\{2CF159CC-2593-720F-79AA-5DB23067B56D}.wem		\Containers\Default Work Unit\Player\TrashCan\metal		50380
+
