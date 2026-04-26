@@ -5,12 +5,23 @@
 			<ChildrenList>
 				<Folder Name="Player" ID="{2E64245E-0647-4118-824A-44D2D1B00340}" ShortID="696258802">
 					<ChildrenList>
+						<Event Name="Trashcan" ID="{8AC375FC-16C2-453F-92CC-3B650A4DA597}">
+							<ChildrenList>
+								<Action Name="" ID="{B74087B1-7EF8-4E0F-9A64-90E967E34AFD}" ShortID="869375214">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TrashCan" ID="{092DBAEF-535E-4484-9E0A-F5591A2B35EC}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Footsteps" ID="{A4649020-A767-465B-B4E1-5D0E77939233}">
 							<ChildrenList>
 								<Action Name="" ID="{41BB73A6-AAD9-4E0C-AF13-010E55384797}" ShortID="441791217">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{13C1C026-97CA-4DEC-8258-04737CF6AAD3}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+											<ObjectRef Name="Carpet" ID="{16BA24C0-3529-41F2-92E0-9E58DA3D765D}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

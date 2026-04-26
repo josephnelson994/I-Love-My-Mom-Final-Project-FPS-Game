@@ -2,39 +2,37 @@ Unity Editor version:    6000.2.0f1 (eed1c594c913)
 Branch:                  6000.2/respin/6000.2.0f1-517f89d850d1
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 15.7.4 (Build 24G517)
+macOS version:           Version 15.6 (Build 24G84)
 Darwin version:          24.6.0
-Architecture:            x86_64
+Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        32768 MB
-Date:                    2026-04-20T23:58:45Z
+Available memory:        24576 MB
+Date:                    2026-04-26T04:21:05Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sambren55" at "2026-04-20T23:58:45.655645Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-04-26T04:21:05.526791Z"
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/sambren55/Desktop/Spring 2026/Game Sound 2/I-Love-My-Mom-Final-Project-FPS-Game
+/Users/user/Documents/I-Love-My-Mom-Final-Project-FPS-Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58211
--licensingIpc
-LicenseClient-sambren55
+50518
 -job-worker-count
-5
+6
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name AssetImport
-Successfully changed project path to: /Users/sambren55/Desktop/Spring 2026/Game Sound 2/I-Love-My-Mom-Final-Project-FPS-Game
-/Users/sambren55/Desktop/Spring 2026/Game Sound 2/I-Love-My-Mom-Final-Project-FPS-Game
+Successfully changed project path to: /Users/user/Documents/I-Love-My-Mom-Final-Project-FPS-Game
+/Users/user/Documents/I-Love-My-Mom-Final-Project-FPS-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -70,13 +68,13 @@ Successfully changed project path to: /Users/sambren55/Desktop/Spring 2026/Game 
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704374309120]  Target information:
+Player connection [8716411072]  Target information:
 
-Player connection [140704374309120]  * "[IP] 10.0.0.37 [Port] 0 [Flags] 2 [Guid] 3040798072 [EditorId] 3040798072 [Version] 1048832 [Id] OSXEditor(0,Samuels-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8716411072]  * "[IP] 192.168.86.21 [Port] 0 [Flags] 2 [Guid] 3078423842 [EditorId] 3078423842 [Version] 1048832 [Id] OSXEditor(0,mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [140704374309120] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704374309120] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [8716411072] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8716411072] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 6
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -87,65 +85,75 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 37.66 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 2.71 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.0f1 (eed1c594c913)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/sambren55/Desktop/Spring 2026/Game Sound 2/I-Love-My-Mom-Final-Project-FPS-Game/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/user/Documents/I-Love-My-Mom-Final-Project-FPS-Game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Color LCD preferred device: AMD Radeon Pro 560X (high power)
-Metal devices available: 2
-0: AMD Radeon Pro 560X (high power)
-1: Intel(R) UHD Graphics 630 (low power)
-Using device AMD Radeon Pro 560X (high power)
-Initializing Metal device caps: AMD Radeon Pro 560X
+ preferred device: Apple M4 Pro (high power)
+Metal devices available: 1
+0: Apple M4 Pro (high power)
+Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
 Mac GPU Family: 2
-Apple GPU Family: 0
+Apple GPU Family: 9
 MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56738
+Mono path[0] = '/Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56343
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000685 seconds.
-- Loaded All Assemblies, in  0.794 seconds
+Register platform support module: /Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000238 seconds.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22171, path: "/Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.1+ae67fbc
+  Session Id:              6c6be3173fb1405b87daa4b49071a02c
+  Correlation Id:          da7aa586721c72548b04e49389ac1097
+  External correlation Id: 7687842019268233067
+  Machine Id:              HVMTac2H3du9J/60notNglaYr3U=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.32s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2026-04-26T04:21:05.843541Z"
+[Licensing::Module] Licensing Background thread has ended after 0.32s
+- Loaded All Assemblies, in  0.180 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.931 seconds
-Domain Reload Profiling: 1725ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  0.207 seconds
+Domain Reload Profiling: 387ms
+	BeginReloadAssembly (41ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (206ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (40ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (384ms)
-			TypeCache.Refresh (380ms)
-				TypeCache.ScanAssembly (354ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (78ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (932ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (207ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (835ms)
+		SetupLoadedEditorAssemblies (181ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (87ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (232ms)
-			ProcessInitializeOnLoadAttributes (361ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,206 +162,415 @@ Domain Reload Profiling: 1725ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 50460, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              efb6d0b8c87b4e9793fdd186fd885497
-  Correlation Id:          2281a8bf7dd9ee075fdb8cd3c4f8de18
-  External correlation Id: 4234071686681625686
-  Machine Id:              tWxfFz1kz4GX9ntJTACrA36ipmk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sambren55" (connect: 0.00s, validation: 0.00s, handshake: 3.32s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sambren55-notifications" at "2026-04-20T23:58:48.976929Z"
-[Licensing::Module] Licensing Background thread has ended after 3.32s
-[Licensing::Module] Licensing is initialized (took 0.45s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 1375928254730-UnityPersXXXX
+  Id: 1375867506101-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.804 seconds
-Refreshing native plugins compatible for Editor in 5.44 ms, found 16 plugins.
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 5 plugins.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 5.16 ms, found 16 plugins.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object GUID" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object Path" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Max Attenuation" Metadata.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.701 seconds
-Domain Reload Profiling: 3505ms
-	BeginReloadAssembly (727ms)
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 838ms
+	BeginReloadAssembly (72ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (90ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (941ms)
-		LoadAssemblies (546ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (504ms)
-			TypeCache.Refresh (359ms)
-				TypeCache.ScanAssembly (333ms)
-			BuildScriptInfoCaches (113ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1702ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (100ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (464ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1351ms)
+		SetupLoadedEditorAssemblies (372ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (287ms)
-			ProcessInitializeOnLoadAttributes (944ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launching external process: /Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
-Refreshing native plugins compatible for Editor in 23.38 ms, found 16 plugins.
+LogWwiseProjectDatabase Log: Platform Mac: Using "Generate All Banks Metadata file" is less efficient than Per Bank.
+Launching external process: /Applications/Unity/Unity-6000.2.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6787 unused Assets / (4.5 MB). Loaded Objects now: 7428.
-Memory consumption went from 136.5 MB to 132.0 MB.
-Total: 14.486245 ms (FindLiveObjects: 0.865157 ms CreateObjectMapping: 1.320550 ms MarkObjects: 8.341410 ms  DeleteObjects: 3.957452 ms)
+Unloading 6788 unused Assets / (3.9 MB). Loaded Objects now: 7427.
+Memory consumption went from 147.0 MB to 143.1 MB.
+Total: 6.231542 ms (FindLiveObjects: 0.587166 ms CreateObjectMapping: 0.131959 ms MarkObjects: 4.303125 ms  DeleteObjects: 1.208875 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 239453.918410 seconds.
-  path: Assets/Prefabs/Hallway.prefab
-  artifactKey: Guid(7c19c43462b36b3419275d17318a2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hallway.prefab using Guid(7c19c43462b36b3419275d17318a2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff515022d7de50f9bb0806a0fb5e82ea') in 1.324777732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+  Time since last request: 9961.290582 seconds.
+  path: Assets/Script/footsteps.cs
+  artifactKey: Guid(ef33dbe4919c34973a143b5148a92768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/footsteps.cs using Guid(ef33dbe4919c34973a143b5148a92768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55f37689e3d9d2d66c51e200c493fe95') in 0.002123792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x3324c3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 5 plugins.
+Native extension for OSXStandalone target not found
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object GUID" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object Path" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Max Attenuation" Metadata.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.438 seconds
+Domain Reload Profiling: 821ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (84ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.45 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (4.0 MB). Loaded Objects now: 7445.
+Memory consumption went from 161.7 MB to 157.7 MB.
+Total: 5.338667 ms (FindLiveObjects: 0.334333 ms CreateObjectMapping: 0.196917 ms MarkObjects: 3.804250 ms  DeleteObjects: 1.002792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.843005 seconds.
+  path: Assets/Script/footsteps.cs
+  artifactKey: Guid(ef33dbe4919c34973a143b5148a92768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/footsteps.cs using Guid(ef33dbe4919c34973a143b5148a92768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c1751f33deee3fe5a6e06f50cfbd5a9') in 0.002412458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+LogWwiseProjectDatabase Log: Platform Mac: Using "Generate All Banks Metadata file" is less efficient than Per Bank.
+Thread 0x3324c3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.397 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 5 plugins.
+Native extension for OSXStandalone target not found
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object GUID" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object Path" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Max Attenuation" Metadata.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.86 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (3.4 MB). Loaded Objects now: 7448.
+Memory consumption went from 169.3 MB to 165.8 MB.
+Total: 4.680000 ms (FindLiveObjects: 0.300167 ms CreateObjectMapping: 0.133250 ms MarkObjects: 3.316667 ms  DeleteObjects: 0.929583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 177.185262 seconds.
+  path: Assets/Script/footsteps.cs
+  artifactKey: Guid(ef33dbe4919c34973a143b5148a92768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/footsteps.cs using Guid(ef33dbe4919c34973a143b5148a92768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57380a498bd33eaeaff17c02c3e39661') in 0.000706459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+LogWwiseProjectDatabase Log: Platform Mac: Using "Generate All Banks Metadata file" is less efficient than Per Bank.
+Thread 0x16f08f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.368 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Native extension for OSXStandalone target not found
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object GUID" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object Path" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Max Attenuation" Metadata.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.431 seconds
+Domain Reload Profiling: 801ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (431ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (355ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.48 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (3.0 MB). Loaded Objects now: 7451.
+Memory consumption went from 176.9 MB to 173.9 MB.
+Total: 4.774250 ms (FindLiveObjects: 0.307708 ms CreateObjectMapping: 0.151459 ms MarkObjects: 3.417541 ms  DeleteObjects: 0.896875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+LogWwiseProjectDatabase Log: Platform Mac: Using "Generate All Banks Metadata file" is less efficient than Per Bank.
+Thread 0x16f08f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.358 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Native extension for OSXStandalone target not found
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object GUID" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object Path" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Max Attenuation" Metadata.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 776ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (91ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (3.7 MB). Loaded Objects now: 7454.
+Memory consumption went from 184.5 MB to 180.8 MB.
+Total: 4.507875 ms (FindLiveObjects: 0.301792 ms CreateObjectMapping: 0.110416 ms MarkObjects: 3.231125 ms  DeleteObjects: 0.864084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+LogWwiseProjectDatabase Log: Platform Mac: Using "Generate All Banks Metadata file" is less efficient than Per Bank.
+Thread 0x16f08f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.352 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 5 plugins.
+Native extension for OSXStandalone target not found
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object GUID" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Object Path" Metadata.
+LogWwiseProjectDatabase Error: Platform Mac: Requires "Max Attenuation" Metadata.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.430 seconds
+Domain Reload Profiling: 785ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (86ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (431ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.14 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (3.4 MB). Loaded Objects now: 7457.
+Memory consumption went from 192.0 MB to 188.6 MB.
+Total: 5.179875 ms (FindLiveObjects: 0.306958 ms CreateObjectMapping: 0.129916 ms MarkObjects: 3.775584 ms  DeleteObjects: 0.967000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 841.474279 seconds.
+  path: Assets/Prefabs/Closed_Door_In_Frame Variant.prefab
+  artifactKey: Guid(86d7b3c67810129439bd2f8103dac839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Closed_Door_In_Frame Variant.prefab using Guid(86d7b3c67810129439bd2f8103dac839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e7337c23074e269961e34e56c88b00') in 0.376703709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Prefabs/Exploration Room 2.prefab
-  artifactKey: Guid(7789c87db177b41408845df1dd05ab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Exploration Room 2.prefab using Guid(7789c87db177b41408845df1dd05ab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffed23bc8ecc19033f845fd20df359ac') in 0.166793118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1272
-
-========================================================================
-Received Import Request.
-  Time since last request: 248.429949 seconds.
+  Time since last request: 0.000047 seconds.
   path: Assets/Prefabs/Opening_Door_In_Frame.prefab
   artifactKey: Guid(b45339b9dbc20b943b4f29cbd39881f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Opening_Door_In_Frame.prefab using Guid(b45339b9dbc20b943b4f29cbd39881f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d6613e0dd589e75cf76c1efd4cfeb4d') in 0.031294703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Prefabs/Starting Room.prefab
-  artifactKey: Guid(72a358cf2b730094dbab34f692f06399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Starting Room.prefab using Guid(72a358cf2b730094dbab34f692f06399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '889d40eb378f0132fb6d94e44499258c') in 0.037032127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.500077 seconds.
-  path: Assets/Prefabs/Opening_Door_In_Frame.prefab
-  artifactKey: Guid(b45339b9dbc20b943b4f29cbd39881f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Opening_Door_In_Frame.prefab using Guid(b45339b9dbc20b943b4f29cbd39881f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f93e079a99a502c54cc039b6900897a') in 0.039027391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 413.948303 seconds.
-  path: Assets/Prefabs/Opening_Door_In_Frame.prefab
-  artifactKey: Guid(b45339b9dbc20b943b4f29cbd39881f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Opening_Door_In_Frame.prefab using Guid(b45339b9dbc20b943b4f29cbd39881f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a4fddf03277f399bae58ac7587ad186') in 0.036091739 seconds
+Start importing Assets/Prefabs/Opening_Door_In_Frame.prefab using Guid(b45339b9dbc20b943b4f29cbd39881f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5078ca6451adfa2c8141d05038d27b1') in 0.007811959 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
 
 ========================================================================
 Received Import Request.
-  Time since last request: 333.696559 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_2.prefab
-  artifactKey: Guid(6b90958a986bf934f9b62f33bfe2a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_2.prefab using Guid(6b90958a986bf934f9b62f33bfe2a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48c3cc884d9e15a61891a325d0f47f81') in 0.128234589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_3.prefab
-  artifactKey: Guid(40c2e3fae13fb7c4a95134f9b198b91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_3.prefab using Guid(40c2e3fae13fb7c4a95134f9b198b91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a66275e96b1e54046835772b51dd64f7') in 0.038958946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_FloorDebris_3.prefab
-  artifactKey: Guid(bc9fa22fc2f4b1b4db09d5865a4d8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_FloorDebris_3.prefab using Guid(bc9fa22fc2f4b1b4db09d5865a4d8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49627e5ae67ae45260e4857ebbfd7af3') in 0.025110242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.489434 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_WallDebris_2.prefab
-  artifactKey: Guid(b68b6982d1e1a3d46a400c0b1d48b994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_WallDebris_2.prefab using Guid(b68b6982d1e1a3d46a400c0b1d48b994) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88463f11e00600ac78b03f5b8f191cc2') in 0.035773604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.005831 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_WallDebris_4.prefab
-  artifactKey: Guid(2556c8342dac94449b20266bdbee2c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_WallDebris_4.prefab using Guid(2556c8342dac94449b20266bdbee2c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78b303949ce180ebd4130fe33f6ba84b') in 0.037493243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.945839 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Bucket.prefab
-  artifactKey: Guid(b7bd3dbe97dbc4a4e8dc096038682fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Bucket.prefab using Guid(b7bd3dbe97dbc4a4e8dc096038682fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde6245fa06dd650b6cd926b5f1450ac') in 0.055644487 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Chest.prefab
-  artifactKey: Guid(385aff8a0cfab61479f946de511fd592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Chest.prefab using Guid(385aff8a0cfab61479f946de511fd592) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e33e54ad44ab7a29837ae4b3f0828f7') in 0.040872373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Key.prefab
-  artifactKey: Guid(d98c793a3c8517144a0477b447235ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Key.prefab using Guid(d98c793a3c8517144a0477b447235ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94b8d88f4d4f0210a38a72d334fee9f1') in 0.043556517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Chair.prefab
-  artifactKey: Guid(6498adaa7cd2d41499ad451f9804705c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Chair.prefab using Guid(6498adaa7cd2d41499ad451f9804705c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40ec47d6e96651ea3ec27a59dfff08da') in 0.037330048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_PlugsA.prefab
-  artifactKey: Guid(8055e34c3dfce9c4eb3dc8da3da7864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_PlugsA.prefab using Guid(8055e34c3dfce9c4eb3dc8da3da7864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61622f7543fb4c475d99177f7a5fd63c') in 0.038106382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Exploration Room 1.prefab
+  artifactKey: Guid(934ce08edb0831f4ba12e17377749be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Exploration Room 1.prefab using Guid(934ce08edb0831f4ba12e17377749be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2a112f465bef9c9df0900c46265d33b') in 0.039902584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1552
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
+LogWwiseProjectDatabase Log: Platform Mac: Using "Generate All Banks Metadata file" is less efficient than Per Bank.
