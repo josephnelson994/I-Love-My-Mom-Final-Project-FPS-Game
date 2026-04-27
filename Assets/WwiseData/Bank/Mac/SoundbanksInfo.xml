@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{66509304-7541-C638-8950-B48F56A50FFD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D7D0B069-BB2F-5C30-A6DC-5478AF09361F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -173,7 +173,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{F8D1B5ED-56A9-0335-FD32-402FCE356D50}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0A7B81D9-51CD-0466-8110-185FEEFD039E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -181,9 +181,21 @@
 					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
 					<CachePath>DB/{DB0F7F8B-F7E0-31A6-D6A1-001516F9422D}.wem</CachePath>
 				</File>
+				<File Id="50891710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 1.wav</ShortName>
+					<CachePath>FD/{FD9B5471-F017-1D03-E787-FA7DF443B2AE}.wem</CachePath>
+				</File>
+				<File Id="69565885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 2.wav</ShortName>
+					<CachePath>2D/{2DEDD497-68B2-C647-3355-5B2D4018233C}.wem</CachePath>
+				</File>
 				<File Id="98552668" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
 					<CachePath>36/{3672A50C-C18B-C610-587D-161548ED8773}.wem</CachePath>
+				</File>
+				<File Id="133313014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 3.wav</ShortName>
+					<CachePath>A9/{A9670EE2-79AD-7B1F-4781-F21C1E262E5D}.wem</CachePath>
 				</File>
 				<File Id="241335881" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
@@ -193,13 +205,45 @@
 					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
 					<CachePath>57/{5752324B-D941-05F8-3B9E-0E00EE562EEE}.wem</CachePath>
 				</File>
+				<File Id="386087460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 1.wav</ShortName>
+					<CachePath>B4/{B4DD11DE-9F21-0A38-6D33-6E06FB4D7770}.wem</CachePath>
+				</File>
+				<File Id="398573688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 3.wav</ShortName>
+					<CachePath>59/{593B63E2-2D93-B39D-55EC-2C7A4D766EBC}.wem</CachePath>
+				</File>
 				<File Id="415405995" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
 					<CachePath>75/{756CBF91-4757-D4FB-1E75-88580D7FEE23}.wem</CachePath>
 				</File>
+				<File Id="446606984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 2.wav</ShortName>
+					<CachePath>D9/{D958BBED-41D6-335D-2AB3-2778A87627A8}.wem</CachePath>
+				</File>
+				<File Id="462025305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 2.wav</ShortName>
+					<CachePath>55/{5563E57E-D97E-5AD3-ED47-ACB8630F64B0}.wem</CachePath>
+				</File>
+				<File Id="579512778" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 2.wav</ShortName>
+					<CachePath>1C/{1C730EF0-04EB-1842-9862-DECD32598D9C}.wem</CachePath>
+				</File>
 				<File Id="593664744" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
 					<CachePath>F2/{F2C6D361-5E55-862C-354B-9CAF6932BD21}.wem</CachePath>
+				</File>
+				<File Id="627332523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 3.wav</ShortName>
+					<CachePath>FD/{FD06DC52-3296-A099-0B80-A06BDBCD2C1E}.wem</CachePath>
+				</File>
+				<File Id="657288977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 3.wav</ShortName>
+					<CachePath>A0/{A0BA22E7-CAE5-9131-3465-02A0EF76F6B7}.wem</CachePath>
+				</File>
+				<File Id="659352307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 1.wav</ShortName>
+					<CachePath>67/{6707A855-BEB8-6908-1AE4-26A20DF0E00A}.wem</CachePath>
 				</File>
 				<File Id="662044889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
@@ -217,9 +261,29 @@
 					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
 					<CachePath>75/{7511C9B0-7DC8-3C36-013E-6A45E0BD3474}.wem</CachePath>
 				</File>
+				<File Id="773246950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 2.wav</ShortName>
+					<CachePath>8D/{8D8F2908-F1E4-6725-77C9-9DDBA2917854}.wem</CachePath>
+				</File>
+				<File Id="776771597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment Noise Layer 1.wav</ShortName>
+					<CachePath>45/{4592E63C-E5B5-AC5F-01EA-589DA70A024C}.wem</CachePath>
+				</File>
+				<File Id="801512719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 3.wav</ShortName>
+					<CachePath>3B/{3B2AF92C-4110-F628-9CDD-8E1F7AA3E61C}.wem</CachePath>
+				</File>
 				<File Id="822579370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
 					<CachePath>43/{43DE0F32-B114-9D1F-B9CC-C756354A34AC}.wem</CachePath>
+				</File>
+				<File Id="852044375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 2.wav</ShortName>
+					<CachePath>60/{604AD716-4DEB-A397-DCF1-54CF104FFCA8}.wem</CachePath>
+				</File>
+				<File Id="882779968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 1.wav</ShortName>
+					<CachePath>56/{56BA9380-4BBC-480F-D1C4-EAC5A8E5ED0A}.wem</CachePath>
 				</File>
 				<File Id="890012544" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>125509-Footsteps_on_carpet_or_rug_in_rubber_platforms_walking_with_a_stomp_in_a_loop.wav</ShortName>
@@ -241,8 +305,43 @@
 					<ShortName>210313-229-Foley-Footsteps-Metal-Boot-Set-Down-One-Foot-Special-Close.wav</ShortName>
 					<CachePath>2C/{2CF159CC-2593-720F-79AA-5DB23067B56D}.wem</CachePath>
 				</File>
+				<File Id="1056136531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc Sounds 1.wav</ShortName>
+					<CachePath>4C/{4CDB4C4E-6DDD-7231-C84A-6A4700BBBCFA}.wem</CachePath>
+				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="176477860" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
+				<Event Id="85412153" Name="Ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="50891710"/>
+						<MediaRef Id="69565885"/>
+						<MediaRef Id="133313014"/>
+						<MediaRef Id="386087460"/>
+						<MediaRef Id="398573688"/>
+						<MediaRef Id="446606984"/>
+						<MediaRef Id="462025305"/>
+						<MediaRef Id="579512778"/>
+						<MediaRef Id="627332523"/>
+						<MediaRef Id="657288977"/>
+						<MediaRef Id="659352307"/>
+						<MediaRef Id="773246950"/>
+						<MediaRef Id="776771597"/>
+						<MediaRef Id="801512719"/>
+						<MediaRef Id="852044375"/>
+						<MediaRef Id="882779968"/>
+						<MediaRef Id="1056136531"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="176477860"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 				<Event Id="535830432" Name="Door_Open" DurationType="OneShot" DurationMin="0.6041791" DurationMax="0.7136833">
 					<MediaRefs>
 						<MediaRef Id="693336430"/>
@@ -274,5 +373,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{128AC1C5-7D47-52DF-276E-99650634F4D1}</FileHash>
+	<FileHash>{4991CF83-EBFD-43FD-FF32-BED8C87C3E8F}</FileHash>
 </SoundBanksInfo>

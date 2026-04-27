@@ -548,6 +548,607 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Folder Name="Ambience" ID="{1AC864DE-AB4A-4FE2-8224-38B031A9BC60}" ShortID="1029373190">
+							<ChildrenList>
+								<Sound Name="Environment Noise Layer 1" ID="{FDA43C4A-F7AA-45C3-B71A-F50D5B82F0B0}" ShortID="224491116">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Environment Noise Layer 1" ID="{90B68B6F-8BE0-4370-8264-753F46F55375}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4508.297"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.24261180106988"/>
+												<Property Name="LoopBegin" Type="Real64" Value="10.2794468110211"/>
+												<Property Name="LoopEnd" Type="Real64" Value="72.4941667856491"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="75.4442827245582"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment Noise Layer 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="776771597"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Environment Noise Layer 1" ID="{90B68B6F-8BE0-4370-8264-753F46F55375}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Amb_SFX" ID="{E9567D22-3F33-45B2-A71A-E7CDE7C7E1FA}" ShortID="523251697">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Amb_SFX_Rand" ID="{D8E0EB62-1BCF-4D33-A43F-8715703A330E}" ShortID="456095809">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AF262B96-983B-4CB1-956B-397DBA1222DB}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="9"/>
+																	<Property Name="Min" Type="Real64" Value="-44"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AFCC489E-F8C4-4042-84F7-E4BC4B6F26E4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-300"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_SFX_13" ID="{F9506ACB-E136-4B72-8347-DF9D70470870}" ShortID="852814882">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 3" ID="{80BF13EC-346F-4E9B-9372-5460E7A9B33D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.876136225591849"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.28336180121534"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.51952835470022"/>
+																<Property Name="TrimEnd" Type="Real64" Value="14.407571005414"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="627332523"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 3" ID="{80BF13EC-346F-4E9B-9372-5460E7A9B33D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_07" ID="{E9E10311-1D8F-40C1-907B-B57130EEC57C}" ShortID="927467865">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 2" ID="{4C55BB49-1ACB-4D5B-91E0-0C8BB160407C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.494968510952281"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.65278741448295"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="19.9860022064687"/>
+																<Property Name="TrimEnd" Type="Real64" Value="31.1119477816251"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="69565885"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 2" ID="{4C55BB49-1ACB-4D5B-91E0-0C8BB160407C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_11" ID="{5DA9FB8B-D03C-489E-BC7B-F8114062ACC1}" ShortID="355623811">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 2" ID="{51259C2D-818D-4553-9EE7-AB5F5A8944A9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.494968510952281"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.65278741448295"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="66.5525066225766"/>
+																<Property Name="TrimEnd" Type="Real64" Value="76.9711128901465"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="852044375"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 2" ID="{51259C2D-818D-4553-9EE7-AB5F5A8944A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_06" ID="{FE51CE35-3D45-416D-AACE-106B4C155877}" ShortID="826932255">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 2" ID="{9298B64B-AE42-4ACA-9083-65188C5824A4}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.494968510952281"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.65278741448295"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.66444524692395"/>
+																<Property Name="TrimEnd" Type="Real64" Value="14.4894740533436"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="773246950"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 2" ID="{9298B64B-AE42-4ACA-9083-65188C5824A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_12" ID="{579F5771-DCD4-4A97-9609-3F5A8A54E5FE}" ShortID="604122880">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 3" ID="{4B222AE6-3CEF-458F-AB4A-4845E86F6B30}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.584090817061233"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="5.3541658230613"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.49582967018945"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="398573688"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 3" ID="{4B222AE6-3CEF-458F-AB4A-4845E86F6B30}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_09" ID="{543A7B50-91B6-4CE9-A05B-210EEC90427D}" ShortID="731231736">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 2" ID="{036E9E2B-F203-47C0-908D-AB0935F0AD2B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.494968510952281"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.65278741448295"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="34.2506782427954"/>
+																<Property Name="TrimEnd" Type="Real64" Value="43.018826125997"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="579512778"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 2" ID="{036E9E2B-F203-47C0-908D-AB0935F0AD2B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_05" ID="{E5865488-800B-4AB1-BD91-275C20A5931D}" ShortID="720373510">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 1" ID="{1721CE1F-2E77-48C1-9C3C-FFB56A08534F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.23355077840071"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.53586311180792"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="77.0940863562487"/>
+																<Property Name="TrimEnd" Type="Real64" Value="85.888136549505"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1056136531"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 1" ID="{1721CE1F-2E77-48C1-9C3C-FFB56A08534F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_01" ID="{92EF3B8B-7242-4A7C-B4E6-E6F7E87E3301}" ShortID="1043173832">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 1" ID="{17B7F5A2-FD12-41A1-8D1B-ACD70BE9F3A6}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.372529094173467"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.465661367716833"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.13439902617646"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="882779968"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 1" ID="{17B7F5A2-FD12-41A1-8D1B-ACD70BE9F3A6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_15" ID="{308C3926-0E46-498D-9D8D-A03FAF8D09AE}" ShortID="313735655">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 3" ID="{0176BA90-5DAC-437C-9673-92B290DAD239}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.876136225591849"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.28336180121534"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="33.3433880798026"/>
+																<Property Name="TrimEnd" Type="Real64" Value="43.7094603279859"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="801512719"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 3" ID="{0176BA90-5DAC-437C-9673-92B290DAD239}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_16" ID="{A6F76915-6404-491B-AF97-9BDA2D976366}" ShortID="980658150">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 3" ID="{CE50D6CA-6382-4EE0-B17F-E11A25A30DA9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.876136225591849"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.96480108778678"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="56.2202784147009"/>
+																<Property Name="TrimEnd" Type="Real64" Value="67.6571838274965"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="133313014"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 3" ID="{CE50D6CA-6382-4EE0-B17F-E11A25A30DA9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_14" ID="{9F8CE619-ECDA-4323-8DF2-1E21A10AF9E9}" ShortID="558238672">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 3" ID="{27A8768C-C96C-4D98-8DCF-F6C5CFAB08B5}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.876136225591849"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.28336180121534"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="22.3430110251494"/>
+																<Property Name="TrimEnd" Type="Real64" Value="27.7443113283122"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="657288977"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 3" ID="{27A8768C-C96C-4D98-8DCF-F6C5CFAB08B5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_03" ID="{4C9529BF-FB97-47C3-89B4-6F855A26FE00}" ShortID="797535514">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 1" ID="{6C52044E-5862-4FDA-B672-27679453A044}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.23355077840071"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="38.661983977385"/>
+																<Property Name="TrimEnd" Type="Real64" Value="45.3876025590627"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="659352307"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 1" ID="{6C52044E-5862-4FDA-B672-27679453A044}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_08" ID="{7ADCFDC5-AA9A-4E9C-A297-AF5AA69D33C5}" ShortID="459801896">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 2" ID="{1A52184B-C521-4959-B2D7-156E5132DAD5}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.494968510952281"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.65278741448295"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="44.8607678565922"/>
+																<Property Name="TrimEnd" Type="Real64" Value="53.3931359705982"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="446606984"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 2" ID="{1A52184B-C521-4959-B2D7-156E5132DAD5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_10" ID="{2956680E-DDEC-424A-8D73-8A98A09F4273}" ShortID="604531054">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 2" ID="{3DCEF557-5220-4533-B887-51EB01EA6A83}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.494968510952281"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.65278741448295"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="55.1171878165957"/>
+																<Property Name="TrimEnd" Type="Real64" Value="64.1211154689927"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="462025305"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 2" ID="{3DCEF557-5220-4533-B887-51EB01EA6A83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_04" ID="{8975BED7-5DE0-49BF-934E-9613A9A6B193}" ShortID="149552328">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 1" ID="{B403408E-1675-4131-AF72-810666DC1693}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.23355077840071"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.53586311180792"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="55.7560172440575"/>
+																<Property Name="TrimEnd" Type="Real64" Value="62.3101596299567"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="386087460"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 1" ID="{B403408E-1675-4131-AF72-810666DC1693}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_SFX_02" ID="{B398DB83-FC91-4E31-A047-6F073AA476BB}" ShortID="1023033818">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Misc Sounds 1" ID="{E5BC6470-9302-4DAC-85F0-3FD83C7D9DF0}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.43353805555314"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="16.0271261346187"/>
+																<Property Name="TrimEnd" Type="Real64" Value="25.8178817158377"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Misc Sounds 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="50891710"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Misc Sounds 1" ID="{E5BC6470-9302-4DAC-85F0-3FD83C7D9DF0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="New Silence" ID="{0434D648-DCE8-49C3-9D30-1D5B4B7C498A}" ShortID="556247249">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{298E344B-D713-4533-9CC5-41DF9D9EBB0F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{685F900F-1E48-4606-8780-688A1993B96B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{00C6195F-F8A5-4A4A-B121-80F0EA5A7564}" ShortID="176477860" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="10"/>
+														<Property Name="LengthMax" Type="Real32" Value="10"/>
+														<Property Name="LengthMin" Type="Real32" Value="-10"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{00C6195F-F8A5-4A4A-B121-80F0EA5A7564}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<PluginInnerObject Name="" ID="{BB6E3A96-02C9-434C-95A9-14482F7EF305}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+												<ReferenceList>
+													<Reference Name="PlaylistObject">
+														<ObjectRef Name="New Silence" ID="{0434D648-DCE8-49C3-9D30-1D5B4B7C498A}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+													</Reference>
+												</ReferenceList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{A07614FB-55E8-40BD-8480-48DCF7C941AD}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+												<ReferenceList>
+													<Reference Name="PlaylistObject">
+														<ObjectRef Name="Amb_SFX_Rand" ID="{D8E0EB62-1BCF-4D33-A43F-8715703A330E}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+													</Reference>
+												</ReferenceList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{B0DBA833-388C-48F8-8589-DA8F88511840}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+												<ReferenceList>
+													<Reference Name="PlaylistObject">
+														<ObjectRef Name="New Silence" ID="{0434D648-DCE8-49C3-9D30-1D5B4B7C498A}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+													</Reference>
+												</ReferenceList>
+											</PluginInnerObject>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Windows",
    "BasePlatform": "Windows",
-   "Generator": "2025.1.6.9117"
+   "Generator": "2025.1.3.9039"
   },
   "RootPaths": {
    "ProjectRoot": "../../../../FPSGameWwiseProject",
@@ -33,6 +33,6 @@
    "PrintObjectPath": "false",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{3153699B-2420-55E5-0947-A3C73B6239F5}"
+  "FileHash": "{377B4B99-2ADC-031E-3AAB-CB80255DBAA9}"
  }
 }

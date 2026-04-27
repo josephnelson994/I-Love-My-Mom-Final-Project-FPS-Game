@@ -43,6 +43,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Ambience" ID="{46145635-80FB-497D-9729-2DB910DBF6FE}">
+							<ChildrenList>
+								<Action Name="" ID="{2ADA4887-0AE6-404F-A181-68FB85A05FF1}" ShortID="355547544">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environment Noise Layer 1" ID="{FDA43C4A-F7AA-45C3-B71A-F50D5B82F0B0}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A847CE17-4993-4FD3-AA67-3583B1E47DFC}" ShortID="614270478">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_SFX" ID="{E9567D22-3F33-45B2-A71A-E7CDE7C7E1FA}" WorkUnitID="{8100FC14-E72D-4F5D-AC00-DE6DF1553D2E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

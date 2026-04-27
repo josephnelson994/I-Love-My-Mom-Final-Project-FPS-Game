@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Trashcan" ID="{8AC375FC-16C2-453F-92CC-3B650A4DA597}" WorkUnitID="{6D7DC120-981C-4459-8DCA-D28473577FDA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{A4649020-A767-465B-B4E1-5D0E77939233}" WorkUnitID="{6D7DC120-981C-4459-8DCA-D28473577FDA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{46145635-80FB-497D-9729-2DB910DBF6FE}" WorkUnitID="{6D7DC120-981C-4459-8DCA-D28473577FDA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_Open" ID="{62A2D20D-9A71-4F19-AEF3-8B048F35C698}" WorkUnitID="{6D7DC120-981C-4459-8DCA-D28473577FDA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

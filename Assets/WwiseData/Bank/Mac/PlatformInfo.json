@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Mac",
    "BasePlatform": "Mac",
-   "Generator": "2025.1.6.9117"
+   "Generator": "2025.1.3.9039"
   },
   "RootPaths": {
    "ProjectRoot": "../../../../FPSGameWwiseProject",
@@ -33,6 +33,6 @@
    "PrintObjectPath": "false",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{B31C577E-1EFC-6B95-58B5-21143D0B0354}"
+  "FileHash": "{A122F38D-E865-E3E9-B304-6D9C9F1B3AC7}"
  }
 }
